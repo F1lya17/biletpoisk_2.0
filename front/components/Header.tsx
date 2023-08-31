@@ -16,7 +16,7 @@ const Header = observer(function () {
             <div className="container">
                 <div className="header__row">
                     <Link href="/" className="header__logo">Билетпоиск</Link>
-                    {basket.totalCount > 0 && <CountButton onClick={() => { }} className="films-count">{basket.totalCount}</CountButton>}
+                    {basket.totalCount > 0 && <CountButton className="films-count">{basket.totalCount}</CountButton>}
                     <Link href="/order"><Image className="header__basket" alt="basket" src={basketImg}></Image></Link>
                 </div>
             </div>

@@ -20,7 +20,6 @@ function useGenreFilms(films: Array<Film>, genre: Genre) {
 }
 
 export function useFilms(films: Array<Film>, genre: Genre, query: string) {
-    //console.log(films);
     const genreFilms = useGenreFilms(films, genre);
 
     const searchedAndGenrePosts = useMemo(() => {

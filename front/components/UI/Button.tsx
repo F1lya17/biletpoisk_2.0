@@ -4,7 +4,7 @@ import classes from "./UI.module.css"
 type btnProps = {
     transparent: Boolean,
     children: ReactNode,
-    onClick: any
+    onClick?: any
 }
 
 const Button: React.FC<btnProps> = function ({ transparent, children, ...props }) {

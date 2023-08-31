@@ -2,7 +2,7 @@
 
 import React, { useContext } from "react";
 import classes from "./Order.module.css"
-import { BasketContext } from "../layout";
+import { BasketContext } from "../../provider";
 import FilmCard from "../../components/FilmCard";
 import { observer } from "mobx-react-lite";
 

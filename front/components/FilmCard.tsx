@@ -16,7 +16,7 @@ const localGenre: { [key: string]: string } = { "fantasy": "Фэнтези", "ho
 type filmCardProps = {
     film: Film,
     isOrder: Boolean,
-    setIsLoading: any
+    setIsLoading?: any
 }
 
 const FilmCard: React.FC<filmCardProps> = function ({ film, isOrder, setIsLoading }) {
